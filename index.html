@@ -1,23 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
+<title>Google</title>
 <body>
+
+<!--This is for the top navigation bar-->
+
 <div class="container-fluid">
- <div class="top_links">
-  <a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
-  <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=ghbvV5aAE4jijwSi57DQAw&ved=0EKouCBYoAQ">Images</a>
-  <a href="<a class="gb_b gb_Vb" href="https://www.google.com/intl/en/options/" title="Google apps" aria-expanded="false" role="button" tabindex="0" data-ved="0EL0nCBc"></a>
-</div>
-   
+  <div class="top_links">
+    <a href="https://mail.google.com/mail/?tab=wm" id="gmail">Gmail</a>
+    <a href="https://www.google.com/imghp?hl=en&tab=wi&ei=ghbvV5aAE4jijwSi57DQAw&ved=0EKouCBYoAQ" id="images">Images</a>
+    <a href="https://gsuite.google.com/"><i class="fa fa-th fa-lg" aria-hidden="true" id="grid"></i></a>
+    <a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/#identifier" button type="button" class="btn btn-primary" id="sign-in">Sign in</button></a>
   </div>
+</div>
 
-<h1>My First Heading</h1>
 
-<p>My first paragraph.</p>
-<a href="https://mail.google.com/mail/?tab=wm">Gmail</a>
+<!--This is for the google logo in the center of the page-->
+
+<div class="row container-fluid img-responsive">
+	<div class="col-xs-12">
+		<div class= "google_logo" > <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+		</div>
+	</div>
+
+<!-- This is for the input field box-->
+
+	<div class= "search">
+	<form action="search.html">
+		<input type= "text" name="name" id="seach">
+
+<!--This is for the buttons under the input field-->
+
+		<div class="buttons">
+			<button type="button" class="btn btn-default" id="GS">Google Search</button>
+			<button type="button" class="btn btn-default" id="IFL">I'm feeling lucky</button>
+		</div>
+	</form>
+	</div>
+</div>
+
+<!--This is for the bottom nav-bar-->
+  
+<nav class="navbar navbar-inverse navbar-fixed-bottom" id="nav">
+  <div class="container-fluid">
+      <ul class="nav navbar-nav navbar-left">
+      <li><a href="#advertising"><p>Advertising</p></a></li>
+      <li><a href="#business"><p>Business</p></a></li>
+      <li><a href="#about"><p>About</p></a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#privacy"><p>Privacy</p></a></li>
+      <li><a href="#terms"><p>Terms</p></a></li>
+      <li><a href="#settings"><p>Settings</p></a></li>
+    </ul>
+  </div>
+</nav>			
 </body>
 </html>

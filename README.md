@@ -1,1 +1,1 @@
-This will be interesting. I will update with lessons learned. 
+This project was really challenging. I had to pull from several resources to complete it. I still don't really understand all the style code and why it works the way it does. I am sure understanding will come with much more practice.  
